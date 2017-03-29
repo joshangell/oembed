@@ -1,0 +1,17 @@
+{
+	"name": "hutsix/oembed",
+	"description": "A simple plugin to extract media information from websites, like youtube videos, twitter statuses or blog articles.",
+	"authors": [
+		{
+			"name": "HutSix",
+			"homepage": "https://hutsix.com.au"
+		},
+		{
+			"name": "Regan Lawton",
+			"homepage": "https://github.com/reganlawton"
+		}
+	],
+	"require": {
+		"essence/essence": "^3.3"
+	}
+}
