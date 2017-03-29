@@ -34,17 +34,17 @@ class OEmbedPlugin extends BasePlugin
 
     public function getDocumentationUrl()
     {
-        return 'https://github.com/hutsix/oembed/blob/master/README.md';
+        return 'https://github.com/hut6/oembed/blob/master/README.md';
     }
 
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/hutsix/oembed/master/releases.json';
+        return 'https://raw.githubusercontent.com/hut6/oembed/master/releases.json';
     }
 
     public function getVersion()
     {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     public function getSchemaVersion()

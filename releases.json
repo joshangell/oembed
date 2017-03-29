@@ -1,8 +1,17 @@
 [
     {
+        "version": "1.0.1",
+        "downloadUrl": "https://github.com/hut6/oembed/archive/master.zip",
+        "date": "2017-03-29T11:30:00+09:30Z",
+        "notes": [
+            "[Fixed] Fix typo's",
+            "[Improved] Refactor files"
+        ]
+    },
+    {
         "version": "1.0.0",
-        "downloadUrl": "https://github.com/hutsix/oembed/archive/master.zip",
-        "date": "2017-03-16T06:48:05.795Z",
+        "downloadUrl": "https://github.com/hut6/oembed/archive/master.zip",
+        "date": "2017-03-16T10:00:00+09:30Z",
         "notes": [
             "[Added] Initial release"
         ]
