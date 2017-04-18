@@ -23,11 +23,32 @@ To use simply call the `embed` method on your field type
 We also provide option to use as a Twig variable
 
     {{ craft.oembed.embed(url, options) }}
+    
+You can access additional media details using the examples below.
+
+    field.media.type
+    field.media.version
+    field.media.url
+    field.media.title
+    field.media.description
+    field.media.authorName
+    field.media.authorUrl
+    field.media.providerName
+    field.media.providerUrl
+    field.media.cacheAge
+    field.media.thumbnailUrl
+    field.media.thumbnailWidth
+    field.media.thumbnailHeight
+    field.media.html
+    field.media.width
+    field.media.height
+    
+Additional Essense information can be found [here](https://github.com/essence/essence)
 
 ## oEmbed Roadmap
 
-Some things to do, and ideas for potential features:
-
+* 1.0.2
+	* Update README usages
 * 1.0.1
 	* Fix typo's
 	* Refactor files
