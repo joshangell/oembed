@@ -18,7 +18,7 @@ oEmbed works on Craft 2.4.x and Craft 2.5.x.
 
 To use simply call the `embed` method on your field type
 
-    {{ entry.mediaUrl.embed }}
+    {{ entry.fieldType.embed }}
     
 We also provide option to use as a Twig variable
 
@@ -47,6 +47,9 @@ Additional Essense information can be found [here](https://github.com/essence/es
 
 ## oEmbed Roadmap
 
+* 1.0.3
+	* Fix Twig variable typo
+	* Update README usages
 * 1.0.2
 	* Update README usages
 * 1.0.1

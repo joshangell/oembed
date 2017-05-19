@@ -1,5 +1,14 @@
 [
     {
+        "version": "1.0.3",
+        "downloadUrl": "https://github.com/hut6/oembed/archive/master.zip",
+        "date": "2017-04-19T3:30:00+09:30Z",
+        "notes": [
+            "[Fixed] Twig variable typo",
+            "[Improved] Update README usages"
+        ]
+    },
+    {
         "version": "1.0.2",
         "downloadUrl": "https://github.com/hut6/oembed/archive/master.zip",
         "date": "2017-04-19T8:45:00+09:30Z",
