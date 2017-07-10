@@ -15,7 +15,7 @@ class OEmbedVariable
 {
     public function embed($url, $options = array())
     {
-        $media = craft()->oembad->embed($url, $options);
+        $media = craft()->oembed->embed($url, $options);
 
         return TemplateHelper::getRaw(isset($media->html) ? $media->html : "");
     }
