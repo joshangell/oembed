@@ -47,6 +47,8 @@ Additional Essense information can be found [here](https://github.com/essence/es
 
 ## oEmbed Roadmap
 
+* 1.0.4
+	* Correct a typo - @joshangell
 * 1.0.3
 	* Fix Twig variable typo
 	* Update README usages
