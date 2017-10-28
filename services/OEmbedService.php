@@ -18,7 +18,7 @@ class OEmbedService extends BaseApplicationComponent
         array_multisort($options);
 
         $essence = new \Essence\Essence();
-        $media = $essence->extract($url);
+        $media = $essence->extract($url,$options);
 
         if ($media)
         {
