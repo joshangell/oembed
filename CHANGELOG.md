@@ -1,11 +1,37 @@
 # oEmbed Changelog
 
-## 1.0.4 -- 2017.07.13
-## 1.0.3 -- 2017.05.19
-## 1.0.2 -- 2017.04.19
-## 1.0.1 -- 2017.03.29
-## 1.0.0 -- 2017.03.16
+## 2.0.0 - 2017-11-24
 
-* Initial release
+### Added
+- Initial CraftCMS 3 release
 
-Brought to you by [HutSix](https://hutsix.com.au)
+## 1.0.4 - 2017-07-13
+
+### Fixed
+- Correct a typo - @joshangell
+
+## 1.0.3 - 2017-05-19
+
+### Fixed
+- Twig variable typo
+
+### Improved
+- Update README usages
+
+## 1.0.2 - 2017-04-19
+
+### Improved
+- Update README usages
+
+## 1.0.1 - 2017-03-29
+
+### Fixed
+- Fix typo's
+
+### Improved
+- Refactor files
+
+## 1.0.0 - 2017-03-16
+### Added
+- Initial release
+
