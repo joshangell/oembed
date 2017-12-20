@@ -1,5 +1,10 @@
 # oEmbed Changelog
 
+## 2.0.3 - 2017-12-20
+
+### Added
+- Added Packagist Auto Updates
+
 ## 2.0.2 - 2017-12-20
 
 ### Fixed
