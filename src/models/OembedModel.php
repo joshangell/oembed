@@ -46,7 +46,7 @@ class OembedModel extends Model
 
     public function __toString()
     {
-        return $this->url;
+        return "".$this->getUrl();
     }
 
     /**
@@ -76,17 +76,17 @@ class OembedModel extends Model
             $decValue = json_decode($value, true);
             if($decValue) {
                 if (isset($decValue['url'])) {
-                    return new OembedModel($decValue['url']);
+                    return $decValue['url'];
                 }
             }
-            return $value ? new OembedModel($value) : null;
+            return $value ? $value : "";
         }
 
         if (is_array($value) and isset($value['url'])) {
-            return new OembedModel($value['url']);
+            return $value['url'];
         }
 
-        return $value ? new OembedModel($value) : null;
+        return $value ? $value : "";
     }
 
     /**
