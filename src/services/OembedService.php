@@ -43,7 +43,7 @@ class OembedService extends Component
             return $media;
         }
 
-        return $url;
+        return null;
     }
 
     /**

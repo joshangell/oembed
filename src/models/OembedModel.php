@@ -67,13 +67,35 @@ class OembedModel extends Model
         ];
     }
 
+    public function getUrl()
+    {
+
+        $value = $this->url;
+
+        if (is_string($value)) {
+            $decValue = json_decode($value, true);
+            if($decValue) {
+                if (isset($decValue['url'])) {
+                    return new OembedModel($decValue['url']);
+                }
+            }
+            return $value ? new OembedModel($value) : null;
+        }
+
+        if (is_array($value) and isset($value['url'])) {
+            return new OembedModel($value['url']);
+        }
+
+        return $value ? new OembedModel($value) : null;
+    }
+
     /**
      * @param array $options
      * @return string
      */
     public function render(array $options = [])
     {
-        return Oembed::getInstance()->oembedService->render($this->url, $options);
+        return Oembed::getInstance()->oembedService->render($this->getUrl(), $options);
     }
 
     /**
@@ -84,6 +106,6 @@ class OembedModel extends Model
      */
     public function embed(array $options = [])
     {
-        return $this->render($options);
+        return Oembed::getInstance()->oembedService->embed($this->getUrl(), $options);
     }
 }
