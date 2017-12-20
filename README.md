@@ -1,18 +1,27 @@
-# oEmbed plugin for Craft CMS
+# oEmbed plugin for Craft CMS 3.x
 
 A simple plugin to extract media information from websites, like youtube videos, twitter statuses or blog articles.
 
-## Installation
+## Requirements
 
-To install oEmbed, follow these steps:
+This plugin requires Craft CMS 3.0.0-beta.23 or later.
 
-1. Download & unzip the file and place the `oembed` directory into your `craft/plugins` directory
-2.  -OR- do a `git clone https://github.com/hut6/oembed.git` directly into your `craft/plugins` folder.  You can then update it with `git pull`
-3.  -OR- install with Composer via `composer require hut6/oembed`
-4. Install plugin in the Craft Control Panel under Settings > Plugins
-5. The plugin folder should be named `oembed` for Craft to see it.  GitHub recently started appending `-master` (the branch name) to the name of the folder for zip file downloads.
+If use are looking for CraftCMS 2.5 support use [version 1.0.4](https://github.com/hut6/oembed/tree/1.0.4) 
+which is the latest release for CraftCMS 2.5.
 
-oEmbed works on Craft 2.4.x and Craft 2.5.x.
+## Installing
+
+To install the plugin, follow these instructions.
+
+1. Open your terminal and go to your Craft project:
+
+        cd /path/to/project
+
+2. Then tell Composer to load the plugin:
+
+        composer require hut6/oembed
+
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for oEmbed.
 
 ## Using oEmbed
 
@@ -45,19 +54,6 @@ You can access additional media details using the examples below.
     
 Additional Essense information can be found [here](https://github.com/essence/essence)
 
-## oEmbed Roadmap
+## Change Log
 
-* 1.0.4
-	* Correct a typo - @joshangell
-* 1.0.3
-	* Fix Twig variable typo
-	* Update README usages
-* 1.0.2
-	* Update README usages
-* 1.0.1
-	* Fix typo's
-	* Refactor files
-* 1.0.0
-	* Initial release
-
-Brought to you by [HutSix](https://hutsix.com.au)
+Changes can be viewed [here](https://github.com/hut6/oembed/blob/master/CHANGELOG.md)
