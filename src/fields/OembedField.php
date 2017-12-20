@@ -78,7 +78,7 @@ class OembedField extends Field
      */
     public function normalizeValue($value, ElementInterface $element = null)
     {
-        return (new OEmbedModel($value));
+        return $value;
     }
 
     /**
@@ -110,6 +110,6 @@ class OembedField extends Field
      */
     public function getInputHtml($value, ElementInterface $element = null): string
     {
-        return '<input name="'.$this->handle.'" value="'.$value.'" />';
+        return '<input name="'.$this->handle.'" class="text nicetext fullwidth" value="'.$value.'" />';
     }
 }
