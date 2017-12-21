@@ -75,18 +75,27 @@ class OembedModel extends Model
         if (is_string($value)) {
             $decValue = json_decode($value, true);
             if($decValue) {
-                if (isset($decValue['url'])) {
-                    return $decValue['url'];
-                }
+                $value = $decValue;
             }
-            return $value ? $value : "";
         }
 
-        if (is_array($value) and isset($value['url'])) {
-            return $value['url'];
+        if(is_array($value)) {
+            if (isset($value['url'])) {
+                if(is_array($value['url'])) {
+                    if(is_array($value['url']['url'])) {
+                        if(is_array($value['url']['url']['url'])) {
+                            return $value['url']['url']['url']['url'];
+                        }
+                        return $value['url']['url']['url'];
+                    }
+                    return $value['url']['url'];    
+                }
+                return $value['url'];
+            }
+            return null;
         }
 
-        return $value ? $value : "";
+        return $value ? $value : null;
     }
 
     /**
