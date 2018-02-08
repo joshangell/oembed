@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06bb3ff07f35cf84cb07ace8323ea6de",
     "content-hash": "75a08a29c9ef865017cf2e1da472f676",
     "packages": [
         {
@@ -45,20 +44,20 @@
                 "dom",
                 "parser"
             ],
-            "time": "2015-07-23 20:33:17"
+            "time": "2015-07-23T20:33:17+00:00"
         },
         {
             "name": "essence/essence",
-            "version": "3.3.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/essence/essence.git",
-                "reference": "47b4ceeb4daed13610782cf6beda50ad53e2af93"
+                "reference": "e8c9d81efde5ac4063033395972f766f18d86711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/essence/essence/zipball/47b4ceeb4daed13610782cf6beda50ad53e2af93",
-                "reference": "47b4ceeb4daed13610782cf6beda50ad53e2af93",
+                "url": "https://api.github.com/repos/essence/essence/zipball/e8c9d81efde5ac4063033395972f766f18d86711",
+                "reference": "e8c9d81efde5ac4063033395972f766f18d86711",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +95,7 @@
                 "oembed",
                 "opengraph"
             ],
-            "time": "2016-09-20 16:30:21"
+            "time": "2017-10-15T10:39:56+00:00"
         },
         {
             "name": "essence/http",
@@ -139,7 +138,7 @@
                 "client",
                 "http"
             ],
-            "time": "2015-07-23 20:33:50"
+            "time": "2015-07-23T20:33:50+00:00"
         },
         {
             "name": "fg/parkour",
@@ -186,7 +185,7 @@
                 "manipulation",
                 "traversing"
             ],
-            "time": "2015-10-03 10:39:22"
+            "time": "2015-10-03T10:39:22+00:00"
         }
     ],
     "packages-dev": [],
